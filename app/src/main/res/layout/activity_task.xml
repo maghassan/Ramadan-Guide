@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aminu.ramadanguide.task">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="3dp"
+        android:layout_marginBottom="55dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="185dp"
+                android:background="@drawable/abuja"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abuja"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:paddingBottom="5dp"
+                    android:textSize="45sp"
+                    android:textColor="#fff"/>
+
+            <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="15dp"
+        card_view:contentPadding="15dp"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+            android:id="@+id/info_text27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:elevation="2dp"
+            android:text="Calender 2017 (Ramadan, 1438 A.H)"
+            android:textAlignment="viewStart"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/info_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="2dp"
+            android:layout_margin="5dp"
+            android:lineSpacingExtra="5sp"
+            android:text="Prayer Time\nFajr: 04:52 am\nDhuhr: 12:28 pm\nAsr: 03:52 pm\nMaghrib: 06:46 pm\nIsha: 07:51 pm"
+            android:textAlignment="viewStart"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+                </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="185dp"
+                android:background="@drawable/abuja"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yola"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:paddingBottom="5dp"
+                    android:textSize="45sp"
+                    android:textColor="#fff"/>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view2"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="15dp"
+                    card_view:contentPadding="15dp"
+                    card_view:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/info_text27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:elevation="2dp"
+                            android:text="Calender 2017 (Ramadan, 1438 A.H)"
+                            android:textAlignment="viewStart"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/info_text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:elevation="2dp"
+                            android:layout_margin="5dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="Prayer Time\nFajr: 04:52 am\nDhuhr: 12:28 pm\nAsr: 03:52 pm\nMaghrib: 06:46 pm\nIsha: 07:51 pm"
+                            android:textAlignment="viewStart"
+                            android:textColor="#fff"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="185dp"
+                android:background="@drawable/abuja"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kano"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:paddingBottom="5dp"
+                    android:textSize="45sp"
+                    android:textColor="#fff"/>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view2"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="15dp"
+                    card_view:contentPadding="15dp"
+                    card_view:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/info_text27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:elevation="2dp"
+                            android:text="Calender 2017 (Ramadan, 1438 A.H)"
+                            android:textAlignment="viewStart"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/info_text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:elevation="2dp"
+                            android:layout_margin="5dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="Prayer Time\nFajr: 06:03 am\nDhuhr: 12:22 pm\nAsr: 03:39 pm\nMaghrib: 06:41 pm\nIsha: 07:54 pm"
+                            android:textAlignment="viewStart"
+                            android:textColor="#fff"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="185dp"
+                android:background="@drawable/abuja"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Port Harcourt"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:paddingBottom="5dp"
+                    android:textSize="45sp"
+                    android:textColor="#fff"/>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view2"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="15dp"
+                    card_view:contentPadding="15dp"
+                    card_view:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/info_text27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:elevation="2dp"
+                            android:text="Calender 2017 (Ramadan, 1438 A.H)"
+                            android:textAlignment="viewStart"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/info_text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:elevation="2dp"
+                            android:layout_margin="5dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="Prayer Time\nFajr: 04:52 am\nDhuhr: 12:28 pm\nAsr: 03:52 pm\nMaghrib: 06:46 pm\nIsha: 07:51 pm"
+                            android:textAlignment="viewStart"
+                            android:textColor="#fff"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="185dp"
+                android:background="@drawable/abuja"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lagos"
+                    android:gravity="top"
+                    android:textAlignment="center"
+                    android:paddingBottom="5dp"
+                    android:textSize="45sp"
+                    android:textColor="#fff"/>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view2"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="15dp"
+                    card_view:contentPadding="15dp"
+                    card_view:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/info_text27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:elevation="2dp"
+                            android:text="Calender 2017 (Ramadan, 1438 A.H)"
+                            android:textAlignment="viewStart"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:layout_margin="5dp"/>
+
+                        <TextView
+                            android:id="@+id/info_text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:elevation="2dp"
+                            android:layout_margin="5dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="Prayer Time\nFajr: 05:13 am\nDhuhr: 12:43 pm\nAsr: 04:01 pm\nMaghrib: 06:54 pm\nIsha: 08:04 pm"
+                            android:textAlignment="viewStart"
+                            android:textColor="#fff"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </TableLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "127449279699",
+    "firebase_url": "https://ramadanguide-aa251.firebaseio.com",
+    "project_id": "ramadanguide-aa251",
+    "storage_bucket": "ramadanguide-aa251.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127449279699:android:b55fe24af31ac607",
+        "android_client_info": {
+          "package_name": "com.example.aminu.ramadanguideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127449279699-m414t7gtqmcni18hdrimhgh278lt0mtb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aminu.ramadanguideapp",
+            "certificate_hash": "2bf8252d95ad1e418583d1aa88922a7a2c7f85cf"
+          }
+        },
+        {
+          "client_id": "127449279699-ihi5khmrcn3kl04rrcrl4od4h430q96q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB59W7dADjCBjLNQtUnXVLn1XRFrsrSUs8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127449279699-ihi5khmrcn3kl04rrcrl4od4h430q96q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

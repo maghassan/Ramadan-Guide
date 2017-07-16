@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="185dp"
+                android:background="@drawable/ramadan"
+                android:layout_margin="5dp">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view2"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="15dp"
+                    card_view:contentPadding="15dp"
+                    card_view:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_margin="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/info_text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:elevation="2dp"
+                            android:layout_margin="5dp"
+                            android:lineSpacingExtra="5sp"
+                            android:text="All thanks be to Almighty Allah. The creator of the heavens and earth, for keeping us alive and healthy to witness yet again another blessed month of Ramadan. As a means of thanking Almighty Allah for his favors upon us, our team at iFix Software Solution developed this App for android users to encourage engagement in Dhikr and good deeds during this blessed month. May Allah accept it for us as Sadaqah, and may He bless both the developers and users. Kindly Share with friends and family."
+                            android:textAlignment="center"
+                            android:textColor="#fff"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </TableLayout>
+
+            <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        card_view:cardCornerRadius="15dp"
+        card_view:contentPadding="20dp"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/aminu"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/aminu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:elevation="2dp"
+                android:text="Aminu Muhammad\nChief Developer\nTwitter: @Aminu_The_Great"
+                android:textAlignment="textStart"
+                android:textColor="#fff"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                card_view:cardCornerRadius="15dp"
+                card_view:contentPadding="20dp"
+                card_view:cardBackgroundColor="@color/colorPrimary"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/sadeek"
+                        android:layout_margin="5dp"/>
+
+                    <TextView
+                        android:id="@+id/sadeek"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:elevation="2dp"
+                        android:text="Sadeek Hassan\nSystem Analyst\nTwitter: @Sadeekhassan"
+                        android:textAlignment="textStart"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                card_view:cardCornerRadius="15dp"
+                card_view:contentPadding="20dp"
+                card_view:cardBackgroundColor="@color/colorPrimary"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/asmau"
+                        android:layout_margin="5dp"/>
+
+                    <TextView
+                        android:id="@+id/asmau"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:elevation="2dp"
+                        android:text="Asma'u Aminu\nCo-Developer\nTwitter: @asmauaminu14"
+                        android:textAlignment="textStart"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                card_view:cardCornerRadius="15dp"
+                card_view:contentPadding="20dp"
+                card_view:cardBackgroundColor="@color/colorPrimary"
+                android:layout_margin="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/al"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="right"/>
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/ifix"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="right"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
